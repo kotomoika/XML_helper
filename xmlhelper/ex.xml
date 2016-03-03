@@ -1,0 +1,21 @@
+XML:
+
+<data>
+  <page>
+    <fragment type="text">Title1</fragment>
+    <fragment type="image">1</fragment>
+  </page>
+  <page>
+    <fragment type="text">title2</fragment>
+    <fragment type="image">2</fragment>
+  </page>
+  <page>
+    <fragment type="text">title3</fragment>
+    <fragment type="image">3</fragment>
+  </page>
+</data>
+
+
+XPATH:
+
+//fragment[@type]/@type
